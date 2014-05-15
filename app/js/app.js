@@ -20,7 +20,7 @@ app.config(['$routeProvider', function($routeProvider) {
         $routeProvider.
             when('/', {templateUrl: '/app/views/main.html',   controller: IndexCtrl}).
             // when('/busca', {templateUrl: '/app/partials/lista.html',   controller: ListaCtrl}).
-            // when('/senha', {templateUrl: '/app/partials/admin/senha.html',   controller: SenhaCtrl}).
+            when('/senha', {templateUrl: '/app/views/senha.html',   controller: SenhaCtrl}).
             // when('/cadastrar', {templateUrl: '/app/partials/cadastrar.html',   controller: UserCtrl}).
             // when('/login', {templateUrl: '/app/partials/login.html',   controller: LoginCtrl}).
             // when('/logout', {templateUrl: '/app/partials/index.html',   controller: LogoutCtrl}).

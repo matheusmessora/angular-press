@@ -28,3 +28,11 @@ body {
 #content {
     margin: 0 1em;
 }
+
+
+.error {
+    
+    font-size: 20px;
+    background: black;
+    color: red;
+}

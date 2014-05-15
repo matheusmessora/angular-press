@@ -1,0 +1,16 @@
+<div id="senha">
+
+    <form id="passwordForm" ng-submit="savePassword()" ng-show="config.show_password">
+        <h1>Alterar senha</h1>
+        <label for="namPerson">Nome</label>
+        <input id="namPerson" type="text" ng-model="password" />
+        
+        
+        <input type="submit" value="Go" />
+    </form>
+    
+    <div ng-hide="config.show_password">
+        <h1>Senha esta escondida via JSON</h1>
+    </div>
+
+</div>

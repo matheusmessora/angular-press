@@ -1,4 +1,5 @@
 {
     "label_age":"IDADE",
-    "label_date":"Data nascimento"
+    "label_date":"Data nascimento",
+    "show_password": false
 }
