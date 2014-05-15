@@ -1,0 +1,30 @@
+body {
+    margin:0;
+    padding:0;
+    top:0;
+    left:0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#container {
+    width:80%;
+    margin: 0 10%;
+}
+
+
+#bar {
+    background: green;
+    font-size: 0.8em;
+    padding: 0.3em;
+}
+#header {
+    background: red;
+    padding: 1em 0.5em;
+    font-weight: bold;
+}
+
+#content {
+    margin: 0 1em;
+}
